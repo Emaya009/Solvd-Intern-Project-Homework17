@@ -1,0 +1,32 @@
+{
+    "customer_id": 1,
+    "name": "John Doe",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip_code": 12345
+    },
+    "doctor": {
+      "doctor_id": 342,
+      "name": "Laura Shields"
+    },
+    "prescription_items": [
+      {
+        "item_id": 1,
+        "product": {
+          "product_id": 11,
+          "name": "Aspirin"
+        },
+        "quantity": 2
+      },
+      {
+        "item_id": 2,
+        "product": {
+          "product_id": 20,
+          "name": "Ibuprofen"
+        },
+        "quantity": 5
+      }
+    ]
+  }
